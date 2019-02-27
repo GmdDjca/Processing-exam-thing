@@ -25,6 +25,7 @@ void draw(){
   image (fondo, 0,0);
  
   gX++;  // el objetivo va a la derecha
+  gY=gy+(int(random(-10,10))) ); //randomiza la posición del alien madafaka
   
   if(gX == 0) new_objetivo();
   
@@ -42,7 +43,7 @@ void draw(){
          }
   } 
   
-  image (objetivo, gX-30, gY-30+(int(random(-10,10))) );
+  image (objetivo, gX-30, gY-30
   image (mira, pX-20, pY-20);
   //teclado();
   
