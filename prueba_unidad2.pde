@@ -43,7 +43,7 @@ void draw(){
          }
   } 
   
-  image (objetivo, gX-30, gY-30
+  image (objetivo, gX-30, gY-30);
   image (mira, pX-20, pY-20);
   //teclado();
   
